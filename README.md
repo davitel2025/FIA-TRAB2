@@ -1,1 +1,3 @@
-# FIA-TRAB2
+INTEGRANTES: DAVI TELES DE MORAES E SEBASTIAN LIMA GUEDES
+Esse código cria uma pequena rede neural usando NumPy. Ele gera dados aleatórios (64 exemplos, cada um com 1000 valores de entrada e 10 de saída) e treina a rede por 2000 iterações. Em cada uma, a rede faz uma previsão, calcula o erro em relação à resposta esperada e ajusta manualmente seus pesos w1 e w2 aos poucos para errar menos. 
+A cada rodada, ele mostra número da iteração e do erro. Quando executado uma vez, o erro havia começado com 32002 e estava em cerca de 3.72 nas últimas linhas, o que mostra que a rede aprendeu a acertar quase todos os exemplos. Como os dados são aleatórios, ela não descobriu nenhum padrão de verdade, apenas decorou os 64 casos.
